@@ -41,6 +41,9 @@
 
 (define-key global-map (kbd "RET") 'newline-and-indent)
 
+(global-unset-key "\C-z")
+(global-set-key "\C-z" 'advertised-undo)
+
 ;; Customization
 
 (load-theme 'tango-dark)
