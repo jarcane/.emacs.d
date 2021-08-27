@@ -49,6 +49,20 @@
 (load-theme 'tango-dark)
 (desktop-save-mode 1)
 
+(setq ring-bell-function
+      (lambda ()
+	(unless (memq this-command
+		      '(isearch-abort
+			abort-recursive-edit
+			exit-minibuffer
+			keyboard-quit
+			previous-line
+			next-line
+			scroll-up
+			scroll-down
+			mwheel-scroll))
+	  (ding))))
+
 (use-package all-the-icons
   :ensure t)
 
