@@ -1,0 +1,79 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Aug 27 12:38:40 2021
+;; Desktop file format version 208
+;; Emacs version 26.3
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24872 45728 80743 100000) (desktop . "208") "annarcana@Dergon" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-CTDB-Fira Code-normal-normal-normal-*-13-*-*-*-d-0-iso10646-1") (font-parameter . "Fira Code") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#eeeeec") (background-color . "#2e3436") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 1) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . dark) (cursor-color . "#fce94f") (sticky) (environment) (frameset--id . "023F-7E71-A232-F9DD") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . "172.28.80.1:0.0") (explicit-name) (height . 81) (width . 155) (left . 1) (top . 31)) ((min-height . 4) (min-width . 49) (min-height-ignore . 4) (min-width-ignore . 12) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 64) (min-pixel-width . 392) (min-pixel-height-ignore . 64) (min-pixel-width-ignore . 96) (min-pixel-height-safe . 16) (min-pixel-width-safe . 32)) hc (pixel-width . 1272) (pixel-height . 1280) (total-width . 159) (total-height . 80) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 312) (pixel-height . 1280) (total-width . 39) (total-height . 80) (normal-height . 1.0) (normal-width . 0.24528301886792447) (parameters (window-side . left) (window-slot . 0)) (buffer " *Treemacs-Scoped-Buffer-#<frame emacs@Dergon 0x122ac30>*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated . t) (point . 1125) (start . 381))) (leaf (last . t) (pixel-width . 960) (pixel-height . 1280) (total-width . 120) (total-height . 80) (normal-height . 1.0) (normal-width . 0.7547169811320755) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 2 t nil 0 t) (vscroll . 0) (dedicated) (point . 2794) (start . 2190)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/home/annarcana/.emacs.d/init.el" "~/projects/yggdrasil/" "~/.emacs.d/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/annarcana/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode override-global-mode smartparens-mode company-mode)
+  2794
+  '(2000 nil)
+  nil
+  nil
+  '((buffer-display-time 24872 45695 257821 100000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (1955 1952 1964 1609 1312 1357 1389 1386 1389 2536 2536 2558))))
+
+(desktop-create-buffer 208
+  "/home/annarcana/projects/yggdrasil/com.commsor/src/com/commsor/membership_management/cnm.clj"
+  "cnm.clj"
+  'clojure-mode
+  '(eldoc-mode override-global-mode cider-mode smartparens-mode company-mode)
+  8511
+  '(8511 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24872 45654 537665 200000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (9268 8511))))
+
+(desktop-create-buffer 208
+  "/home/annarcana/projects/yggdrasil/com.commsor/src/com/commsor/membership_management/ui/cnm.cljs"
+  "cnm.cljs"
+  'clojurescript-mode
+  '(eldoc-mode override-global-mode cider-mode smartparens-mode company-mode)
+  3067
+  '(4542 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24872 45159 239279 700000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (4542 3928 1512))))
+
+(desktop-create-buffer 208
+  "/home/annarcana/projects/yggdrasil/com.commsor/deps.edn"
+  "deps.edn"
+  'clojure-mode
+  '(eldoc-mode override-global-mode cider-mode smartparens-mode highlight-changes-mode company-mode)
+  2883
+  '(1219 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24872 45082 617629 500000) (buffer-file-coding-system . undecided-unix) (highlight-changes-mode . t))
+  '((mark-ring (1720 776 2883))))
+
+(desktop-create-buffer 208
+  "/home/annarcana/projects/yggdrasil/com.commsor/src/com/commsor/membership_management/ui/companies.cljs"
+  "companies.cljs"
+  'clojurescript-mode
+  '(eldoc-mode override-global-mode cider-mode smartparens-mode company-mode)
+  683
+  '(683 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 24872 45039 839657 200000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
