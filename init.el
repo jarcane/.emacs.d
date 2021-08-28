@@ -44,6 +44,8 @@
 (global-unset-key "\C-z")
 (global-set-key "\C-z" 'advertised-undo)
 
+(delete-selection-mode 1)
+
 ;; Customization
 
 (load-theme 'tango-dark)
