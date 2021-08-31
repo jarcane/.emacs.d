@@ -44,7 +44,10 @@
 (global-unset-key "\C-z")
 (global-set-key "\C-z" 'advertised-undo)
 
+(cua-mode t)
+(setq cua-auto-tabify-rectangles nil)
 (delete-selection-mode 1)
+(setq cua-keep-region-after-copy t)
 
 ;; Customization
 
